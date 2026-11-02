@@ -11,9 +11,25 @@ body{
     height: 100%;
     transition: 0.2s;
 }
-.summary-card:hover{
+/* .summary-card:hover{
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgb(0, 0, 0,0.50);
+} */
+.card-ts:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgb(0, 0, 255,1);
+}
+.card-ca:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgb(128, 0, 128,1);
+}
+.card-pa:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgb(255, 0, 0,1)
+}
+.card-tp:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgb(255, 69, 0,1);
 }
 .summary-card p{
     color: rgb(108, 117, 125);;
